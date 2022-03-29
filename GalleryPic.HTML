@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+<a href="index.html"> ||  Home ||</a>
+
+<!-- Header -->
+<div class="header">
+  <h1>Day Care Photos Dump Grid</h1>
+  <p>Day care Photo Gallery from different classes and adventures. </p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/Bird.Colors.01.jpg"    style="width:100%">
+    <img src="images/Color.Pencil.01.jpg"   style="width:100%">
+    <img src="images/Design01.jpg"          style="width:100%">
+    <img src="images/Design02.png"          style="width:100%">
+    <img src="images/Design03.bmp"          style="width:100%">
+    <img src="images/Design03.jpg"          style="width:100%">
+    <img src="images/Design03.png"          style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="images/Design02.jpg"            style="width:100%">
+    <img src="images/HRS.Of.Operation.01.gif" style="width:100%">
+    <img src="images/HRS.Of.Operation.01.jpg" style="width:100%">
+    <img src="images/Block.play.01.jpg"       style="width:100%">
+    <img src="images/Logo.png"                style="width:100%">
+    <img src="images/Rhodes.Logo.bmp"         style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="images/universal-childrens-day.jfif"   style="width:100%">
+    <img src="images/Rhodes.Logo.gif"                style="width:100%">
+    <img src="images/Rhodes.Logo.jpg"                style="width:100%">
+    <img src="images/universal-childrens01-day.png"  style="width:100%">
+    <img src="images/Rhodes.Logo1.jpg"               style="width:100%">
+    <img src="images/Rhodes.Logo1.png"               style="width:100%">
+    <img src="images/Rhodes.Logo2.jpg"               style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="images/Splash.Colors.01.jpg"   style="width:100%">
+    <img src="images/Stick.Children.01.bmp"  style="width:100%">
+    <img src="images/Stick.Children.01.jpg"  style="width:100%">
+    <img src="images/Stick.Children.01.png"  style="width:100%">
+    <img src="images/kids-play02.jpg"        style="width:100%">
+    <img src="images/BackPack.Kids.webp"     style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

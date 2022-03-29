@@ -1,0 +1,67 @@
+/* from index file */
+button {
+      background-color: orange;
+      font: bold;
+}
+fieldset   {padding-right: 50px;
+            padding-left: 100px;
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+p {
+      font: bold;
+      color: blueviolet;
+      text-shadow: 10px;
+}
+
+h4 {
+      color: red;
+}
+navbar {
+      color: orangered;
+      height: 60px;
+      width: 1000px;
+      margin: 0 auto 20px;
+}
+
+navbar>ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+
+navbar>ul>li {
+      float: left;
+}
+
+navbar>ul>li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+}
+
+body {padding-right: 50px;
+      padding-left: 100px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgb(14, 241, 166);
+      background-image: url('images/design03.png');
+      }
+
+/* If the screen size is 601px or more, set the font-size of to 80px */
+@media screen and (min-width: 601px) {  #container {  display:flex; font-size: 50px;
+      }
+}
+
+/* If the screen size is 600px or less, set the font-size of to 30px */
+@media screen and max-width: 600px) {   #container {  display:flex; font-size: 30px;
+      }
+}
